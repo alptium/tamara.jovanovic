@@ -40,7 +40,7 @@ public class Main {
 					System.out.println("Enter the grade of the fifth student");
 					double grade5 = sc.nextDouble();
 
-					double sumOfAllGrades = grade1 + grade2 + grade3 + grade4 + grade5;
+					double sumGrades = grade1 + grade2 + grade3 + grade4 + grade5;
 					
 					System.out.println("Class of the Mrs. James:");
 
@@ -50,11 +50,11 @@ public class Main {
 					System.out.println("Student -" + student4 + " " + student4LastName  +" grade is " + grade4);
 					System.out.println("Student -" + student5 + " " + student5LastName  +" grade is " + grade5);
 												
-					System.out.println("The total sum of the grades is:" +  sumOfAllGrades);
+					System.out.println("The total sum of the grades is:" +  sumGrades);
 																			
 			}
-				}
-					}
+		}		
+	}				
 
 
 
